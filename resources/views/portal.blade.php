@@ -6,8 +6,14 @@
     <title>G R O U P E | Singularity OS</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
 
     <style>
+        @media (max-width: 768px){
+            body{
+                overflow:visible!important;
+            }
+        }
         body { 
             font-family: 'Space Grotesk', sans-serif; 
             background-color: #000;
@@ -142,7 +148,7 @@
             <div>
                 <p class="text-xs font-mono text-blue-400 mb-1 scramble-text">SYSTEM READY // V4.0</p>
                 <h1 class="text-4xl md:text-6xl font-bold tracking-tighter">
-                    GROUPE <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">NEXUS</span>
+                    GROUPE <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">AUSTRALE</span>
                 </h1>
             </div>
             <div class="hidden md:block text-right">
@@ -166,7 +172,7 @@
                                 <div class="h-px flex-grow mx-4 bg-white/10 group-hover:bg-blue-500/50 transition-colors"></div>
                                 <span class="text-xs font-mono text-blue-400">ID: AUST-01</span>
                             </div>
-                            
+                            <img src="{{asset('img/1.png')}}" width="100" alt="" />
                             <h2 class="text-3xl font-bold mb-2 group-hover:translate-x-2 transition-transform duration-300">Australe</h2>
                             <p class="text-gray-400 text-sm mb-8 leading-relaxed">Infrastructure pédagogique et gestion des stocks matériels.</p>
                             
@@ -196,7 +202,7 @@
                                 <div class="h-px flex-grow mx-4 bg-white/10 group-hover:bg-emerald-500/50 transition-colors"></div>
                                 <span class="text-xs font-mono text-emerald-400">ID: AMC-02</span>
                             </div>
-                            
+                            <img src="{{asset('img/2.png')}}" alt="" width="100"/>
                             <h2 class="text-3xl font-bold mb-2 group-hover:translate-x-2 transition-transform duration-300">AMC Solution</h2>
                             <p class="text-gray-400 text-sm mb-8 leading-relaxed">Plateforme centrale de management et supervision.</p>
                             
@@ -221,7 +227,7 @@
                                 <div class="h-px flex-grow mx-4 bg-white/10 group-hover:bg-orange-500/50 transition-colors"></div>
                                 <span class="text-xs font-mono text-orange-400">ID: CAP-03</span>
                             </div>
-                            
+                            <img src="{{asset('img/4.png')}}" width="100" alt="" />
                             <h2 class="text-3xl font-bold mb-2 group-hover:translate-x-2 transition-transform duration-300">Cap Avenir</h2>
                             <p class="text-gray-400 text-sm mb-8 leading-relaxed">Interface d'administration pour l'association.</p>
                             
@@ -251,6 +257,7 @@
                                 <div class="h-px flex-grow mx-4 bg-white/10"></div>
                                 <span class="text-xs font-mono">ID: CAB-XX</span>
                             </div>
+                            <img src="{{asset('img/3.png')}}" alt="" width="100"/>
                             <h2 class="text-3xl font-bold mb-2">CAB Gestion</h2>
                             <p class="text-gray-400 text-sm">Module en cours de construction.</p>
                         </div>
