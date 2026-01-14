@@ -185,6 +185,9 @@
                                 <a href="https://bilanmpi.on-forge.com" class="magnetic-btn block w-full py-4 bg-transparent hover:bg-white/10 border border-white/10 text-center rounded-lg transition-all duration-300 text-sm font-medium js-exit-link">
                                     BILAN MPI
                                 </a>
+                                <a href="https://australeformation-planner.on-forge.com" class="magnetic-btn block w-full py-4 bg-transparent hover:bg-white/10 border border-white/10 text-center rounded-lg transition-all duration-300 text-sm font-medium js-exit-link">
+                                    GENERATEUR DE PLANNING
+                                </a>
                             </div>
                         </div>
                     </div>
